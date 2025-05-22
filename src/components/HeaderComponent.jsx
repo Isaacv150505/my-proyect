@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom"
 import "./HeaderComponent.css"
-import BlogPage from "../pages/BlogPage"
-function HeaderComponent(){
-  return(
+
+function HeaderComponent() {
+  return (
     <header className="header">
-      <h1 className="title">Welcome</h1>
+      <h1 className="title">Bienvenido a Nuestro Sitio</h1>
       <nav>
         <ul className="link-list">
           <li>
-            <Link className="link" to="/">Home</Link>
+            <Link className="link" to="/">Inicio</Link>
           </li>
           <li>
-            <Link className="link" to="/blog">Blog</Link>
+            <Link className="link" to="/blog">Blog y Opiniones</Link>
           </li>
         </ul>
       </nav>
